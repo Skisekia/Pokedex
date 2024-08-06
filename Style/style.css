@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(135deg, #b44729 0%, #db9f7d 100%); /* Fondo degradado en tonos rojos más claros */
+    color: #fff; /* Color de texto blanco para contraste */
+    font-family: 'Arial', sans-serif; /* Fuente general */
+}
+
+.content-form {
+    width: 50vw;
+    margin: 10vh auto; /* Reducido para hacerlo más compacto */
+    background: rgba(255, 255, 255, 0.05); /* Fondo ligeramente visible para el formulario */
+    border-radius: 10px; /* Bordes redondeados para el formulario */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.logo img {
+    width: 70%; /* Hacer el logo más grande */
+    height: auto;
+    margin: 0 auto; /* Centrado horizontalmente */
+}
+
+.form-control {
+    background: rgba(250, 246, 246, 0.1); /* Fondo del input */
+    border: 1px solid hsl(240, 3%, 93%); /* Borde del input más claro */
+    color: #0d0c0c; /* Color de texto del input */
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.2); /* Fondo del input al enfocar */
+    border-color: #f8f7f3fa; /* Borde del input al enfocar */
+}
+
+.custom-btn {
+    background-color: #f7f306; /* Botón en tono amarillo más claro */
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #6a2df6; /* Cambio de color al pasar el mouse */
+    cursor: pointer;
+}
+
+.info, .pokemon {
+    border: 1px solid rgba(16, 5, 5, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Fondo ligeramente visible para las áreas de información */
+}
+
+.pokemon-info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.pokemon-image {
+    margin-right: 20px;
+}
+
+.pokemon-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-types {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.pokemon-types li {
+    margin-right: 10px;
+}
